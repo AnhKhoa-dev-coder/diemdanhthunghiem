@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f2f6ff;
+  margin: 0;
+  padding: 10px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.camera-box {
+  position: relative;
+  width: 100%;
+  max-width: 360px;
+  margin: auto;
+}
+
+video,
+canvas {
+  width: 100%;
+  border-radius: 12px;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.status {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.success {
+  color: #0a8f08;
+}
+
+.fail {
+  color: #d60000;
+}
+
+button {
+  width: 100%;
+  max-width: 360px;
+  padding: 14px;
+  margin: 6px auto;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: #2563eb;
+  color: white;
+}
+
+button:active {
+  background: #1e40af;
+}
+
+table {
+  width: 100%;
+  font-size: 14px;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 6px;
+}
+
+img {
+  width: 50px;
+  border-radius: 6px;
+}
